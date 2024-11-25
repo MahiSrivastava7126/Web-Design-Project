@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header>
+        <h1>Delicious Recipes</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="#search">Search Recipes</a></li>
+                <li><a href="#submit-recipe">Submit Recipe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <section id="search" class="search-box">
+            <h2>Search for Recipes</h2>
+            <input type="text" placeholder="Search for a recipe...">
+            <button>Search</button>
+        </section>
+
+        <section class="recipe-grid">
+            <div class="recipe-card">
+                <h2>Spaghetti Carbonara</h2>
+                <img src="https://assets.bonappetit.com/photos/5a6f48f94f860a026c60fd71/1:1/w_2560%2Cc_limit/pasta-carbonara.jpg" alt="" height="250" width="250">
+                <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+                <a href="#" class="rate-btn">Rate this Recipe</a>
+                <a href="https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe" class="rate-btn">View Full Recipe</a>
+            </div>
+
+            <div class="recipe-card">
+                <h2>Chicken Curry</h2>
+                <img src="https://www.funfoodfrolic.com/wp-content/uploads/2020/09/Chicken-Curry-Thumbnail.jpg" alt="" height="250" width="260">
+                <p>A rich and flavorful curry made with chicken, spices, and coconut milk.</p>
+                <a href="#" class="rate-btn">Rate this Recipe</a>
+                <a href="https://www.allrecipes.com/recipe/46822/indian-chicken-curry-ii/" class="rate-btn">View Full Recipe</a>
+            </div>
+
+            <div class="recipe-card">
+                <h2>Chocolate Cake</h2>
+                <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/0A475B34-4E78-40D8-9F30-46223B7D77E7/Derivates/E55C7EA4-0E60-403F-B5DC-75EA358197BD.jpg" alt="" width="260" height="250">
+                <p>A deliciously moist and rich chocolate cake.</p>
+                <a href="#" class="rate-btn">Rate this Recipe</a>
+                <a href="https://scientificallysweet.com/the-best-moist-chocolate-cake/" class="rate-btn">View Full Recipe</a>
+            </div>
+            
+            <div class="recipe-card">
+                <h2>Strawberry Macroon</h2>
+                <img src="https://sugargeekshow.com/wp-content/uploads/2018/12/strawberry-macaron-featured.jpg" alt="" width="260" height="250">
+                <p>A macaron is a small,sweet French sandwich cookie made from meringue.</p>
+                <a href="#" class="rate-btn">Rate this Recipe</a>
+                <a href="https://kitchen335co.com/strawberry-macarons/" class="rate-btn">View Full Recipe</a>
+            
+            </div>
+
+        </section>
+
+        
+        <section id="submit-recipe" class="submit-recipe">
+            <h2>Submit Your Recipe</h2>
+            <form>
+                <input type="text" placeholder="Recipe Name" required>
+                <textarea placeholder="Recipe Description" rows="5" required></textarea>
+                <input type="text" placeholder="Ingredients (comma separated)" required>
+                <textarea placeholder="Recipe Steps" rows="5" required></textarea>
+                <button type="submit">Submit Recipe</button>
+            </form>
+        </section>
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Delicious Recipes. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
