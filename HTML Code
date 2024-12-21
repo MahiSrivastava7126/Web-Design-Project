@@ -10,13 +10,17 @@
 
     <header>
         <h1>Delicious Recipes</h1>
-        
-        <nav>
-            <ul>
-                <li><a href="#search">Search Recipes</a></li>
-                <li><a href="#submit-recipe">Submit Recipe</a></li>
-            </ul>
-        </nav>
+               <nav>
+                    <ul>
+                        
+                        <li><a href="index2.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                        <li><a href="index2.html#search">Search Recipes</a></li>
+                        <li><a href="index2.html#submit-recipe">Submit Recipe</a></li>
+                    </ul>
+                </nav>
+
     </header>
 
     <div class="container">
